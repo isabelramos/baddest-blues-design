@@ -1,8 +1,50 @@
+body {
+	font-family: 'Anonymous Pro', monospace;
+	color: black;
+/*	padding-top: 70px;*/
+}
+
+header {
+	background-image: url(/images/landingimage.jpg);
+  	background-size: cover;
+  	height: 100vh;
+  	display: flex;
+  	flex-flow: column;
+    /*justify-content: center;*/
+    position: relative;
+}
+
+.nav-text {
+	font-size: 2rem;
+	color: black;
+	padding: 0 20px;
+}
+
+.nav-text:hover {
+	color: black;
+}
+
+.nav-text:visted {
+	color: black;
+	text-decoration: underline;
+}
+
 nav {
     text-align: center;
+    opacity: 0.8;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+    /*overflow: hidden;*/
+    margin: 20px 0;
+/*    position: fixed;
+    top: 0; 
+    width: 100%;*/
+}
+
+.box {
+	background-color: blue;
+	height: 500px;
 }
