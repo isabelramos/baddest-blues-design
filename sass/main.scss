@@ -1,17 +1,15 @@
 body {
 	font-family: 'Anonymous Pro', monospace;
 	color: black;
-/*	padding-top: 70px;*/
 }
 
 header {
 	background-image: url(/images/landingimage.jpg);
   	background-size: cover;
   	height: 100vh;
-  	display: flex;
+/*  	display: flex;
   	flex-flow: column;
-    /*justify-content: center;*/
-    position: relative;
+    position: relative;*/
 }
 
 .nav-text {
@@ -37,11 +35,22 @@ nav {
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
-    /*overflow: hidden;*/
     margin: 20px 0;
-/*    position: fixed;
-    top: 0; 
-    width: 100%;*/
+}
+
+.primary-logo {
+  width: 575px;
+}
+
+.aligner {
+	display: flex;
+	align-items: center;
+	min-height: 45em;
+	justify-content: center;
+}
+
+.aligner-item {
+	max-width: 80%;
 }
 
 .box {

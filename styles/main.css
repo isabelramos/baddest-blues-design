@@ -1,16 +1,14 @@
 body {
   font-family: 'Anonymous Pro', monospace;
-  color: black;
-  /*	padding-top: 70px;*/ }
+  color: black; }
 
 header {
   background-image: url(/images/landingimage.jpg);
   background-size: cover;
   height: 100vh;
-  display: flex;
-  flex-flow: column;
-  /*justify-content: center;*/
-  position: relative; }
+  /*  	display: flex;
+  	flex-flow: column;
+    position: relative;*/ }
 
 .nav-text {
   font-size: 2rem;
@@ -31,11 +29,19 @@ nav {
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
-  /*overflow: hidden;*/
-  margin: 20px 0;
-  /*    position: fixed;
-    top: 0; 
-    width: 100%;*/ }
+  margin: 20px 0; }
+
+.primary-logo {
+  width: 575px; }
+
+.aligner {
+  display: flex;
+  align-items: center;
+  min-height: 45em;
+  justify-content: center; }
+
+.aligner-item {
+  max-width: 80%; }
 
 .box {
   background-color: blue;
