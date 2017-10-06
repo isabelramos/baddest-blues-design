@@ -1,4 +1,8 @@
+@import "carousel";
+
 body {
+	background-image: url(/images/background.jpg);
+	background-repeat: repeat;
 	font-family: 'Anonymous Pro', monospace;
 	color: black;
 }
@@ -7,9 +11,6 @@ header {
 	background-image: url(/images/landingimage.jpg);
   	background-size: cover;
   	height: 100vh;
-/*  	display: flex;
-  	flex-flow: column;
-    position: relative;*/
 }
 
 .nav-text {
@@ -45,7 +46,7 @@ nav {
 .aligner {
 	display: flex;
 	align-items: center;
-	min-height: 45em;
+	min-height: 48.5em;
 	justify-content: center;
 }
 
@@ -53,7 +54,6 @@ nav {
 	max-width: 80%;
 }
 
-.box {
-	background-color: blue;
-	height: 500px;
+.logo-text {
+	text-align: right;
 }
