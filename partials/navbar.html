@@ -1,6 +1,14 @@
 <nav class="navbar navbar-default navbar-fixed-top" ng-controller="NavCtrl">
     <ul class="nav navbar-nav">
-        <a class="nav-text" ng-href="#!/logodesign">VIEW WORK</a>
+<!--         <a class="nav-text" ng-href="#!/logodesign">VIEW WORK</a> -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nav-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VIEW WORK</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">LOGO DESIGN</a></li>
+            <li><a href="#">TYPOGRAPHY</a></li>
+            <li><a href="#">WEB DESIGN</a></li>
+          </ul>
+        </li>
         <a class="nav-text" ng-href="#!/aboutcontact">ABOUT + CONTACT</a>
     </ul>
 </nav>
