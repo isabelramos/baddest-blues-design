@@ -1,16 +1,20 @@
 .carousel-indicators .active {
-  background-color: #726967; }
+  background-color: #776953; }
 
 .carousel-indicators li {
-  background-color: #b7adaa; }
+  background-color: #af9e85; }
+
+.carousel {
+  margin-top: 10%;
+  background-color: white; }
 
 .carousel-inner img {
   width: 100%;
   max-height: 600px; }
 
-.carousel-control {
-  width: 0; }
-
+/*.carousel-control {
+    width: 0;
+}*/
 .carousel-control.left,
 .carousel-control.right {
   opacity: 1;
@@ -23,28 +27,42 @@
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
-  color: #726967;
+  color: #776953;
   position: absolute;
   top: 45%;
   z-index: 5;
   display: inline-block; }
 
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .icon-prev {
-  left: 0; }
-
-.carousel-control .glyphicon-chevron-right,
-.carousel-control .icon-next {
-  right: 0; }
-
-/*.carousel-control.left span,
-.carousel-control.right span {
-	background-color: white;
-}*/
 .carousel-control.left span:hover,
 .carousel-control.right span:hover {
   opacity: .7;
   filter: alpha(opacity=70); }
+
+/* fade effect */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity; }
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.carousel-fade .carousel-control {
+  z-index: 2; }
 
 body {
   background-image: url(/images/background.jpg);
@@ -90,5 +108,9 @@ nav {
 .aligner-item {
   max-width: 80%; }
 
+h1 {
+  letter-spacing: 1.05rem; }
+
 .logo-text {
-  text-align: right; }
+  text-align: right;
+  margin-top: 75%; }

@@ -1,19 +1,24 @@
 {
     "logos": {
         "logo0": {
-            "image": "https://www.metal-archives.com/images/3/5/8/3/3583.jpg"
+            "image": "/images/logos/bellaslick.jpg",
+            "name": "bellaslick"
         },
         "logo1": {
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51fN%2BUTdB0L.jpg"
+            "image": "/images/logos/taymrecords.jpg",
+            "name": "taymrecords"
         },
         "logo2": {
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51zlXKfGAbL.jpg"
+            "image": "/images/logos/ashtonriker.jpg",
+            "name": "ashtonriker"
         },
         "logo3": {
-            "image": "https://artistxite.com/imgcache/album/006/404/006404544_500.jpg"
+            "image": "https://artistxite.com/imgcache/album/006/404/006404544_500.jpg",
+            "name": "ddfghd"
         },
         "logo4": {
-            "image": "http://diymag.com/media/img/Artists/B/Brand_New/_1500xAUTO_crop_center-center_75/Brand-New-Deja.jpg"
+            "image": "http://diymag.com/media/img/Artists/B/Brand_New/_1500xAUTO_crop_center-center_75/Brand-New-Deja.jpg",
+            "name": "lkmlskm"
         }
     }
 }
