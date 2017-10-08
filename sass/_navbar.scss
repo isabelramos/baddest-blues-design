@@ -1,0 +1,77 @@
+header {
+	background-image: url(/images/landingimage.jpg);
+  	background-size: cover;
+  	height: 100vh;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: black;
+	background-color: transparent !important;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: transparent !important;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.nav-text {
+	font-size: 2rem;
+	color: black;
+	padding: 0 50px;
+	line-height: 1;
+}
+
+li .dropdown a {
+	font-size: 2rem;
+	color: black;
+	padding: 0 20px;
+}
+
+.nav-text:hover {
+	color: black;
+}
+
+.nav-text:visted {
+	color: black;
+	text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 20px 0;
+}
+
+.primary-logo {
+  width: 575px;
+}
+
+.aligner {
+	display: flex;
+	align-items: center;
+	min-height: 48.5em;
+	justify-content: center;
+}
+
+.aligner-item {
+	max-width: 80%;
+}

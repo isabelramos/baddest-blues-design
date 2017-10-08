@@ -1,13 +1,13 @@
 .carousel-indicators .active {
-    background-color: #776953;
+    background-color: $slategray;
 }
 
 .carousel-indicators li {
-	background-color: #af9e85;
+	background-color: $lightslategray;
 }
 
 .carousel {
-	margin-top: 10%;
+	margin-top: 50px;
 	background-color: white;
 }
 
@@ -33,7 +33,7 @@
 .carousel-control .glyphicon-chevron-right, 
 .carousel-control .icon-prev, 
 .carousel-control .icon-next {
-	color: #776953;
+	color: $slategray;
 	position: absolute;
 	top: 45%;
 	z-index: 5;

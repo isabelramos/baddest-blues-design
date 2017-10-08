@@ -1,3 +1,66 @@
+header {
+  background-image: url(/images/landingimage.jpg);
+  background-size: cover;
+  height: 100vh; }
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  padding: 0; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+  text-decoration: underline; }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: black;
+  background-color: transparent !important; }
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: transparent !important; }
+
+.dropdown-menu > li > a:hover {
+  background-color: transparent;
+  text-decoration: underline; }
+
+.nav-text {
+  font-size: 2rem;
+  color: black;
+  padding: 0 50px;
+  line-height: 1; }
+
+li .dropdown a {
+  font-size: 2rem;
+  color: black;
+  padding: 0 20px; }
+
+.nav-text:hover {
+  color: black; }
+
+.nav-text:visted {
+  color: black;
+  text-decoration: underline; }
+
+nav {
+  text-align: center;
+  opacity: 0.8; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  margin: 20px 0; }
+
+.primary-logo {
+  width: 575px; }
+
+.aligner {
+  display: flex;
+  align-items: center;
+  min-height: 48.5em;
+  justify-content: center; }
+
+.aligner-item {
+  max-width: 80%; }
+
 .carousel-indicators .active {
   background-color: #776953; }
 
@@ -5,7 +68,7 @@
   background-color: #af9e85; }
 
 .carousel {
-  margin-top: 10%;
+  margin-top: 50px;
   background-color: white; }
 
 .carousel-inner img {
@@ -70,78 +133,56 @@ body {
   font-family: 'Anonymous Pro', monospace;
   color: black; }
 
-header {
-  background-image: url(/images/landingimage.jpg);
-  background-size: cover;
-  height: 100vh; }
-
-.navbar-default .navbar-nav > li > a {
-  color: black;
-  padding: 0; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: black;
-  text-decoration: underline; }
-
-/*.navbar-nav > li > a {
-	line-height: 0;
-}*/
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: black;
-  background-color: transparent !important; }
-
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: transparent !important; }
-
-.dropdown-menu > li > a:hover {
-  background-color: transparent;
-  text-decoration: underline; }
-
-.nav-text {
-  font-size: 2rem;
-  color: black;
-  padding: 0 50px;
-  line-height: 1; }
-
-li .dropdown a {
-  font-size: 2rem;
-  color: black;
-  padding: 0 20px; }
-
-.nav-text:hover {
-  color: black; }
-
-.nav-text:visted {
-  color: black;
-  text-decoration: underline; }
-
-nav {
-  text-align: center;
-  opacity: 0.8; }
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  margin: 20px 0; }
-
-.primary-logo {
-  width: 575px; }
-
-.aligner {
-  display: flex;
-  align-items: center;
-  min-height: 48.5em;
-  justify-content: center; }
-
-.aligner-item {
-  max-width: 80%; }
-
 h1 {
   letter-spacing: 1.05rem; }
 
+h2 {
+  margin-top: 0; }
+
+a {
+  color: black; }
+
+a:hover {
+  color: black;
+  text-decoration: underline; }
+
+a:visited {
+  color: black; }
+
 .logo-text {
   text-align: right;
-  margin-top: 75%; }
+  margin-top: 400px; }
+
+.typography-text {
+  text-align: right;
+  margin-top: 350px; }
+
+.web-design-title {
+  text-align: center;
+  padding: 100px 0 30px; }
+
+.web-design-text {
+  margin-top: 220px; }
+
+@media (max-width: 1200px) {
+  .logo-text {
+    text-align: right;
+    margin-top: 300px; }
+  .typography-text {
+    text-align: right;
+    margin-top: 250px; }
+  .web-design-text {
+    margin-top: 115px; } }
+
+@media (max-width: 991px) {
+  .logo-text {
+    text-align: right;
+    margin-top: 140px; }
+  .typography-text {
+    text-align: right;
+    margin-top: 90px; }
+  .web-design-text {
+    margin-top: 2px; } }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -149,4 +190,6 @@ h1 {
     text-align: center; }
   .nav-text {
     display: inline-block;
-    margin: 10px 0; } }
+    margin: 10px 0; }
+  .web-design-text {
+    margin-top: 35px; } }
