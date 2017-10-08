@@ -164,7 +164,13 @@ a:visited {
 .web-design-text {
   margin-top: 220px; }
 
-@media (max-width: 1200px) {
+.about-info {
+  margin-top: 150px; }
+
+.about-text {
+  margin-top: 110px; }
+
+@media (max-width: 1199px) {
   .logo-text {
     text-align: right;
     margin-top: 300px; }
@@ -172,7 +178,9 @@ a:visited {
     text-align: right;
     margin-top: 250px; }
   .web-design-text {
-    margin-top: 115px; } }
+    margin-top: 115px; }
+  .about-text {
+    margin-top: 10px; } }
 
 @media (max-width: 991px) {
   .logo-text {
@@ -182,7 +190,12 @@ a:visited {
     text-align: right;
     margin-top: 90px; }
   .web-design-text {
-    margin-top: 2px; } }
+    margin-top: 2px; }
+  .about-image {
+    width: 300px;
+    margin-left: 30px; }
+  .about-text {
+    width: 400px; } }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -191,5 +204,14 @@ a:visited {
   .nav-text {
     display: inline-block;
     margin: 10px 0; }
+  .webdesign-image {
+    width: 98%;
+    margin: 0 1%; }
   .web-design-text {
-    margin-top: 35px; } }
+    margin-top: 35px; }
+  .about-image {
+    width: 60%;
+    margin: 0 20%; }
+  .about-text {
+    width: 98%;
+    margin: 45px 1%; } }
