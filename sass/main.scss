@@ -54,12 +54,24 @@ a:hover {
 }
 
 .gradient-box {
-    height: 300px;
+    height: 225px;
     margin-top: 5%;  
+    padding-top: 40px;
     background: -webkit-linear-gradient(right bottom, $yellow, $lilac, $blue); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top right, $yellow, $lilac, $blue); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(top right, $yellow, $lilac, $blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to top right, $yellow, $lilac, $blue); /* Standard syntax (must be last) */
+}
+
+.contact-logo {
+	width: 275px;
+	margin-right: 25px;
+}
+
+.footer-aligner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 @media (max-width: 1199px) {
@@ -136,5 +148,31 @@ a:hover {
 	.about-text {
 		width: 98%;
 		margin: 45px 1%;
+	}
+
+	.gradient-box {
+		height: 200px;
+		padding-top: 4%;
+	}
+}
+
+@media (max-width: 585px) {
+	.footer-aligner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.contact-info {
+		margin-top: 25px;
+	}
+
+	.contact-text {
+		margin-top: 30px;
+	}
+
+	.gradient-box {
+	    height: 400px;
 	}
 }
