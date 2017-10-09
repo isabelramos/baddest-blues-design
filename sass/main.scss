@@ -17,17 +17,13 @@ h2 {
 	margin-top: 0;
 }
 
-a {
+a, a:visited, a:active, a:focus {
 	color: black;
 }
 
 a:hover {
 	color: black;
 	text-decoration: underline;
-}
-
-a:visited {
-	color: black;
 }
 
 .logo-text {
@@ -55,6 +51,15 @@ a:visited {
 
 .about-text {
 	margin-top: 110px;
+}
+
+.gradient-box {
+    height: 300px;
+    margin-top: 5%;  
+    background: -webkit-linear-gradient(right bottom, $yellow, $lilac, $blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top right, $yellow, $lilac, $blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top right, $yellow, $lilac, $blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, $yellow, $lilac, $blue); /* Standard syntax (must be last) */
 }
 
 @media (max-width: 1199px) {
