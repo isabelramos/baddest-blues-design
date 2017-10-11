@@ -1,1 +1,1 @@
-var app = angular.module("BaddestBluesApp", ["ngAnimate", "ngSanitize", "ngRoute"]);
+var app = angular.module("BaddestBluesApp", ["ngAnimate", "ngSanitize", "ngRoute", "duScroll"]);
