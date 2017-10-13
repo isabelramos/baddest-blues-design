@@ -1,0 +1,179 @@
+@import "color";
+@import "navbar";
+@import "carousel";
+
+body {
+	background-image: url(/images/background.jpg);
+	background-repeat: repeat;
+	font-family: 'Anonymous Pro', monospace;
+	color: black;
+}
+
+h1 {
+	letter-spacing: 1.05rem;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+a, a:visited, a:active, a:focus {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.logo-text {
+	text-align: right;
+	margin-top: 435px;
+}
+
+.typography-text {
+	text-align: right;
+	margin-top: 400px;
+}
+
+.web-design-title {
+	text-align: center;
+	padding: 100px 0 30px;
+}
+
+.web-design-text {
+	margin-top: 220px;
+}
+
+.about-info {
+	margin-top: 150px;
+}
+
+.about-text {
+	margin-top: 110px;
+}
+
+.gradient-box {
+    height: 225px;
+    margin-top: 5%;  
+    padding-top: 40px;
+    background: -webkit-linear-gradient(right bottom, $yellow, $lilac, $blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top right, $yellow, $lilac, $blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top right, $yellow, $lilac, $blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, $yellow, $lilac, $blue); /* Standard syntax (must be last) */
+}
+
+.contact-logo {
+	width: 275px;
+	margin-right: 25px;
+}
+
+.footer-aligner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media (max-width: 1199px) {
+	.logo-text {
+		text-align: right;
+		margin-top: 320px;
+	}
+
+	.typography-text {
+		text-align: right;
+		margin-top: 280px;
+	}
+
+	.web-design-text {
+		margin-top: 115px;
+	}
+
+	.about-text {
+		margin-top: 10px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.logo-text {
+		text-align: right;
+		margin-top: 170px;
+	}
+
+	.typography-text {
+		text-align: right;
+		margin-top: 150px;
+	}
+
+	.web-design-text {
+		margin-top: 2px;
+	}
+
+	.about-image {
+		width: 300px;
+		margin-left: 30px;
+	}
+
+	.about-text {
+		width: 400px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	    color: black; 
+	    text-align: center;
+	}
+
+	.nav-text {
+		display: inline-block;
+		margin: 10px 0;
+	}
+
+	.webdesign-image {
+		width: 98%;
+		margin: 0 1%;
+	}
+
+	.web-design-text {
+		margin-top: 35px;
+	}
+
+	.about-image {
+		width: 60%;
+		margin: 0 20%;
+	}
+
+	.about-text {
+		width: 98%;
+		margin: 45px 1%;
+	}
+
+	.gradient-box {
+		height: 200px;
+		padding-top: 4%;
+	}
+}
+
+@media (max-width: 585px) {
+	.footer-aligner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.contact-info {
+		margin-top: 25px;
+	}
+
+	.contact-text {
+		margin-top: 30px;
+	}
+
+	.gradient-box {
+	    height: 400px;
+	}
+}
