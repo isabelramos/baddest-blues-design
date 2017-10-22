@@ -75,7 +75,11 @@ a:hover {
 	justify-content: center;
 }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
+	.primary-logo {
+		width: 65%;
+	}
+
 	.logo-text {
 		text-align: right;
 		margin-top: 320px;
@@ -96,7 +100,10 @@ a:hover {
 
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
+	.primary-logo {
+		width: 80%;
+	}
 	.logo-text {
 		text-align: right;
 		margin-top: 170px;
@@ -121,7 +128,7 @@ a:hover {
 	}
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 	    color: black; 
 	    text-align: center;
@@ -157,7 +164,7 @@ a:hover {
 	}
 }
 
-@media (max-width: 585px) {
+@media screen and (max-width: 585px) {
 	.footer-aligner {
 		display: flex;
 		flex-direction: column;

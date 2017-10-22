@@ -62,16 +62,11 @@ nav {
 }
 
 .primary-logo {
-  width: 575px;
+	width: 50%;
 }
 
 .aligner {
 	display: flex;
 	align-items: center;
-	min-height: 48.5em;
 	justify-content: center;
-}
-
-.aligner-item {
-	max-width: 80%;
 }

@@ -50,16 +50,12 @@ nav {
   margin: 20px 0; }
 
 .primary-logo {
-  width: 575px; }
+  width: 50%; }
 
 .aligner {
   display: flex;
   align-items: center;
-  min-height: 48.5em;
   justify-content: center; }
-
-.aligner-item {
-  max-width: 80%; }
 
 .carousel-indicators .active {
   background-color: #776953; }
@@ -190,7 +186,9 @@ a:hover {
   flex-direction: row;
   justify-content: center; }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
+  .primary-logo {
+    width: 65%; }
   .logo-text {
     text-align: right;
     margin-top: 320px; }
@@ -202,7 +200,9 @@ a:hover {
   .about-text {
     margin-top: 10px; } }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
+  .primary-logo {
+    width: 80%; }
   .logo-text {
     text-align: right;
     margin-top: 170px; }
@@ -217,7 +217,7 @@ a:hover {
   .about-text {
     width: 400px; } }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: black;
     text-align: center; }
@@ -239,7 +239,7 @@ a:hover {
     height: 200px;
     padding-top: 4%; } }
 
-@media (max-width: 585px) {
+@media screen and (max-width: 585px) {
   .footer-aligner {
     display: flex;
     flex-direction: column;
