@@ -123,6 +123,10 @@ nav {
 .carousel-fade .carousel-control {
   z-index: 2; }
 
+html, body {
+  margin: 0;
+  padding: 0; }
+
 body {
   background-image: url(/images/background.jpg);
   background-repeat: repeat;
@@ -251,3 +255,13 @@ a:hover {
     margin-top: 30px; }
   .gradient-box {
     height: 400px; } }
+
+@media screen and (max-width: 320px) {
+  .contact-logo {
+    width: 235px; }
+  .contact-info {
+    margin-top: 40px; }
+  .gradient-box {
+    width: 100%; }
+  .web-design-title {
+    font-size: 3.1rem; } }
